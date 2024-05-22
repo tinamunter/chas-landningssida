@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero {
+  height: 815px;
+  background-image: url(Img/hero.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+.cta {
+  border-radius: 30px;
+  background: rgb(78, 78, 237);
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+}
+.links li {
+  margin: 10px;
+}
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 74px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+}
+.infoPage {
+  background-color: rgb(226, 226, 226);
+  height: 715px;
+  background-size: cover;
+  background-position: center top;
+}
+.infoContent {
+  display: flex;
+}
+.infoImg {
+  height: auto;
+  width: 550px;
+  padding: 70px 100px 200px 150px;
+}
+.infoText {
+  width: 450px;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0px 0px 0px;
+}
+
+h4 {
+  color: black;
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+h3 {
+  color: black;
+  font-size: 50px;
+  margin: 10px 0px 20px 0px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.cta2 {
+  border-radius: 30px;
+  background: rgb(45, 45, 45);
+  color: white;
+  width: 180px;
+  height: 50px;
+  margin: 20px 20px 20px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cta3 {
+  border-radius: 30px;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  width: 180px;
+  height: 50px;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bluePage {
+  background-color: rgb(78, 78, 237);
+  height: 340px;
+  background-size: cover;
+  background-position: center top;
+}
+
+.testimonialsPage {
+  background-color: rgb(226, 226, 226);
+  height: 715px;
+  background-size: cover;
+  background-position: center top;
+}
+
+h5 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 34px;
+  text-align: center;
+  margin: 0px;
+}
+
+.portraitContainer {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.portraitContainer img {
+  width: 400px;
+  height: auto;
+}
+
+.student {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 20px;
+}
+
+.ansökPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height: 515px;
+  background-size: cover;
+  background-position: center top;
+}
+.ansökInfo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.ansökText {
+  width: 450px;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cta4 {
+  border-radius: 30px;
+  background: rgb(78, 78, 237);
+  color: white;
+  width: 180px;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightgray;
+  height: 440px;
+}
+
+.footerImg {
+  height: 440px;
+  width: 500px;
+  background-image: url(./Img/footer.png);
+  background-size: contain;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.footerText {
+  justify-content: center;
+  width: 200px;
+}
+
+.infoContent {
+  margin: 5%;
+  justify-content: space-between;
+}
+
+.infoContentRight {
+  margin: 10%;
+}
